@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*logo configuration*/
+
+#logoImag {
+    display: inline-flex;
+    
+    
+    
+}
+.classwork{
+    font-family:'pluto', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px; 
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.fontstyle{
+    color: #22A2E3;
+    
+}
+
+/*navbar*/
+#navbar {
+
+    position: absolute;
+    width: 1440px;
+    height: 135px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+    display: inline-flex;
+    padding-top: 30px;
+}
+
+/*a:href*/
+a {
+
+    text-decoration: none;
+    text-decoration-style: none;
+    color: rgba(0, 0, 0, 0.7);
+    
+    
+    
+}
+
+.link{
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+ .lien:hover{
+    color: white;
+    background-color: #22A2E3;
+    border-radius: 9px;
+}
+.active{
+    color: white;
+    background-color: #22A2E3;
+    border-radius: 9px;
+}
+
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+
+}
+
+/*barre des menus*/
+.menuBar {
+
+    /*background-color: blue;*/
+    padding-left: 400px;
+
+}
+
+li {
+    padding-right: 40px;
+    font-family:'pluto', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;    
+
+}
+
+/*body*/
+
+#section1{
+
+    
+    width: 900px;
+    height: 610px;
+    margin-left: 15%;
+    margin-top:20%;
+    
+
+}
+.div1{
+    width:360.34px;
+    height: 610px;
+    background-color: #22A2E3;
+    justify-content: center;
+}
+
+.div2{
+    
+    width:539.66px;
+    background-color: rgb(116, 78, 8);
+}
+
+.classworkdiv2{
+    font-family:'pluto', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500; 
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.classworkdiv22{
+    font-family:'pluto', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500; 
+    padding-left: 40px;
+}
+
+.button{
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    color: white;
+    background-color: #22A2E3;
+    border-color: white;
+    border-radius: 20px;
+    
+
+}
